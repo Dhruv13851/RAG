@@ -1,0 +1,32 @@
+# =========================
+# Core
+# =========================
+python-dotenv>=1.0.1
+pydantic>=2.11.0
+typing_extensions>=4.12.2
+
+# =========================
+# LangChain
+# =========================
+langchain>=0.3.27
+langchain-core>=0.3.75
+langchain-text-splitters>=0.3.9
+
+# =========================
+# PDF Extraction
+# =========================
+docling>=2.52.0
+
+# =========================
+# Logging
+# =========================
+rich>=14.1.0
+
+# =========================
+# Future Phases
+# =========================
+langchain-huggingface
+langchain-chroma
+chromadb
+sentence-transformers
+langchain-groq
