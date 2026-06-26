@@ -33,3 +33,6 @@ class Config:
     GROQ_API_KEY = os.getenv(
         "GROQ_API_KEY"
     )
+    EMBEDDING_MODEL = "intfloat/e5-large-v2"
+
+    LLM_MODEL = "llama-3.3-70b-versatile"
