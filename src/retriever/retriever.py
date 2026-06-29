@@ -15,7 +15,7 @@ class RetrieverManager:
         embedding_model: EmbeddingModel | None = None,
         vector_store_manager: VectorStoreManager | None = None,
         search_type: str = "similarity",
-        k: int = 4,
+        k: int = 10,
     ):
 
         self.embedding_model = embedding_model or EmbeddingModel()

@@ -25,7 +25,10 @@ class Config:
     VECTOR_DB_DIR = Path(
         os.getenv("VECTOR_DB_DIR", "data/vector_db")
     )
+    LANGCHAIN_API_KEY = os.getenv("LANGCHAIN_API_KEY")
 
+    LANGCHAIN_PROJECT = os.getenv("LANGCHAIN_PROJECT")
+    
     CHUNK_SIZE = 1000
 
     CHUNK_OVERLAP = 200
